@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/ivLogoutIcon"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/check"
+        android:scaleType="fitCenter"
+        android:contentDescription="Icono Logout"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvLogoutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sessió tancada"
+        android:textColor="#1D1D1F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvLogoutMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La sessió s'ha tancat correctament."
+        android:textColor="#757575"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="32dp" />
+
+    <android.widget.Button
+        android:id="@+id/btnReturnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="TORNAR AL LOGIN"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="@drawable/btn_rounded_bg"
+        android:backgroundTint="#007BFF" />
+
+</LinearLayout>
